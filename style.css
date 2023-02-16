@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 158);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+span{
+    height: 0;
+    width: 0;
+    border-bottom: 255px solid yellow;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}
